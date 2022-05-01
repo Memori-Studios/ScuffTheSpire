@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5adad95ea339a43a847fb2fd71c150, type: 3}
+  m_Name: Clothesline
+  m_EditorClassIdentifier: 
+  cardTitle: Clothesline
+  isUpgraded: 0
+  cardDescription:
+    baseAmount: Deal 12 damage. Apply 2 Weak.
+    upgradedAmount: Deal 14 damage. Apply 3 Weak.
+  cardCost:
+    baseAmount: 2
+    upgradedAmount: 2
+  cardEffect:
+    baseAmount: 12
+    upgradedAmount: 14
+  buffAmount:
+    baseAmount: 2
+    upgradedAmount: 3
+  cardIcon: {fileID: 21300000, guid: db221ac2c7d5652458648131047c965c, type: 3}
+  cardType: 0
+  cardClass: 0
+  cardTargetType: 1

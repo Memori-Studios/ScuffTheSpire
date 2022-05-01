@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5adad95ea339a43a847fb2fd71c150, type: 3}
+  m_Name: Iron Wave
+  m_EditorClassIdentifier: 
+  cardTitle: IronWave
+  isUpgraded: 0
+  cardDescription:
+    baseAmount: Gain 5 Block, Deal 5 Damage
+    upgradedAmount: Gain 8 Block, Deal 8 Damage
+  cardCost:
+    baseAmount: 1
+    upgradedAmount: 1
+  cardEffect:
+    baseAmount: 5
+    upgradedAmount: 5
+  buffAmount:
+    baseAmount: 5
+    upgradedAmount: 5
+  cardIcon: {fileID: 21300000, guid: e46e3d98aebc8f64b81787b3779d17cc, type: 3}
+  cardType: 0
+  cardClass: 0
+  cardTargetType: 1
